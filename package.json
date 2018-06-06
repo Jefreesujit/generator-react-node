@@ -1,6 +1,6 @@
 {
   "name": "generator-react-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A kickstarter app generator for React and Node.js based application with redux, webpack, and babel",
   "homepage": "https://jefreesujit.github.io",
   "author": {
