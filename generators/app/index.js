@@ -72,19 +72,19 @@ module.exports = class extends Generator {
       this.destinationPath('lib')
     );
     this.fs.copy(
-      this.templatePath('.babelrc'),
+      this.templatePath('_.babelrc'),
       this.destinationPath('.babelrc')
     );
     this.fs.copy(
-      this.templatePath('.editorconfig'),
+      this.templatePath('_.editorconfig'),
       this.destinationPath('.editorconfig')
     );
     this.fs.copy(
-      this.templatePath('.gitignore'),
+      this.templatePath('_.gitignore'),
       this.destinationPath('.gitignore')
     );
     this.fs.copy(
-      this.templatePath('.npmignore'),
+      this.templatePath('_.npmignore'),
       this.destinationPath('.npmignore')
     );
     this.fs.copy(
