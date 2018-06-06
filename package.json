@@ -1,7 +1,7 @@
 {
   "name": "generator-react-node",
   "version": "1.0.1",
-  "description": "Yeoman generator for a stand-alone React app with Babel and Webpack and Node.js baesed REST api service powered by express.js",
+  "description": "A kickstarter app generator for React and Node.js based application with redux, webpack, and babel",
   "homepage": "https://jefreesujit.github.io",
   "author": {
     "name": "Jefree Sujit",
