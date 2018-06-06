@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Jefree Sujit",
+      "authorEmail": "jefree.sujit@gmail.com",
+      "authorUrl": "https://jefreesujit.github.io"
+    }
+  }
+}
