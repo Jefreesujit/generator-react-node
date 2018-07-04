@@ -1,4 +1,4 @@
-# generator-react-node [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-react-node [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > A kickstarter app generator for React and Node.js based application with redux, webpack, and babel
 
 ## Generator Includes
@@ -13,7 +13,7 @@
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and @jefreesujit/generator-react-basic using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-react-node using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
@@ -39,10 +39,6 @@ MIT © [Jefree Sujit](https://jefreesujit.github.io)
 
 
 [npm-image]: https://badge.fury.io/js/generator-react-node.svg
-[npm-url]: https://npmjs.org/package/@jefreesujit/generator-react-node
-[travis-image]: https://travis-ci.org/jefreesujit/generator-react-node.svg?branch=master
-[travis-url]: https://travis-ci.org/jefreesujit/generator-react-node
+[npm-url]: https://npmjs.org/package/generator-react-node
 [daviddm-image]: https://david-dm.org/jefreesujit/generator-react-node.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/jefreesujit/generator-react-node
-[coveralls-image]: https://coveralls.io/repos/jefreesujit/generator-react-node/badge.svg
-[coveralls-url]: https://coveralls.io/r/jefreesujit/generator-react-node
