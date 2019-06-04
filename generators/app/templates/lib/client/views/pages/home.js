@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import Page from './index';
+import Page from '../components/page';
 import * as actions from '../../actions';
 import { connect } from 'react-redux';
 

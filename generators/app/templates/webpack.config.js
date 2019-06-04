@@ -13,7 +13,7 @@ module.exports = env => {
     plugins.push(new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
       minChunks: Infinity,
-      filename: '[name].[hash:8].bundle.js'
+      filename: '[name].bundle.js'
     }));
     plugins.push(new HtmlWebpackPlugin({
       template: path.join(buildSrcFldrPath, 'index.html'),
@@ -21,7 +21,7 @@ module.exports = env => {
       inject: 'body'
     }));
     plugins.push(new WebpackCleanupPlugin({
-      exclude: ['images/**/*', 'fonts/**/*', 'css/**/*', '**/*.html']
+      exclude: ['images/**/*', 'fonts/**/*', '**/*.css', '**/*.html']
     }));
 
   return {
@@ -32,9 +32,9 @@ module.exports = env => {
     },
     output: {
       publicPath: '/',
-      filename: '[name].[hash:8].bundle.js',
+      filename: '[name].bundle.js',
       path: buildFldrPath,
-      chunkFilename: '[name].[hash:8].bundle.js'
+      chunkFilename: '[name].bundle.js'
     },
     module: {
       loaders: [{
